@@ -7,7 +7,7 @@
 
 * {
   margin: 0;
-  padding: none;
+  padding: 0;
 }
 
 *,
@@ -150,18 +150,20 @@ img {
 
   .welcome-section > p {
     font-size: 2rem; 
-    text-align: center; 
+    text-align: center; /* Garante que o texto esteja centralizado em telas menores */
   }
 }
 
 @media (max-width: 480px) {
   .welcome-section {
-    height: 70vh; 
+    height: 70vh; /* Altura menor para telas de celular */
+  }
 
   .welcome-section > p {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Reduz ainda mais o tamanho da fonte */
+  }
 }
-
+/* Projects section */
 
 .projects-section {
   text-align: center;
@@ -181,6 +183,7 @@ img {
   }
 }
 
+/* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
