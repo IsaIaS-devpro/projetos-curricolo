@@ -129,7 +129,7 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-image: url(fotos/essa.png);
+  background-image: url(fotos/fundo2.png);
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -146,6 +146,7 @@ img {
   .welcome-section {
     height: 80vh; 
     background-size: contain; 
+    background-color: #f0f0f0;
   }
 
   .welcome-section > p {
